@@ -8,6 +8,7 @@ cache:
 
 script:
   - npm run buildProd
+  - echo "idenkey.de" > dist/opencast-workflow-editor/CNAME
 
 deploy:
   provider: pages
